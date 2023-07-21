@@ -1,0 +1,21 @@
+@use "../abstract" as *;
+
+.footer {
+  text-align: center;
+  padding-bottom: 5rem;
+  .branding__footer {
+    width: 4rem;
+    height: 4rem;
+    color: $clr-light;
+    border-radius: 50%;
+    @include flex(center, center);
+    margin: 0 auto;
+    background-color: $clr-accent;
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+}
